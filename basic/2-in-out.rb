@@ -1,7 +1,7 @@
 # ruby 2-in-out.rb
 #OUT
 print "HELLO WORLD" #Não quebra linha no fim da execução
-puts "HELLO WORLD" #Printa com quebra de linha no final
+puts "HELLO WORLD" #Printa com quebra de linha no final (tipo o println)
 
 variavel = 1234
 puts "Imprimindo variável #{variavel}"
