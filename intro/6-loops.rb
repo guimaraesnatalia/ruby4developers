@@ -1,4 +1,4 @@
-# ruby 5-loops.rb
+# ruby 6-loops.rb
 
 # for usando numeros
 for i in 1..4

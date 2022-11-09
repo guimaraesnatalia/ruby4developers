@@ -1,4 +1,4 @@
-# ruby 4-conditionals.rb
+# ruby 5-conditionals.rb
 idade_natalia = 25
 idade_maria = 18
 

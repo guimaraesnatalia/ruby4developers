@@ -1,4 +1,4 @@
-# ruby 3-variables.rb
+# ruby 4-variables.rb
 #Declarando variavel
 number = 1
 
