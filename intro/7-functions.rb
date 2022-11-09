@@ -32,3 +32,11 @@ def funcao_com_parametros(numero1, numero2)
 end
 funcao_com_parametros(13, 26)
 funcao_com_parametros 11, 33 #Não precisa colocar os parenteses
+
+#Como consultar todas as funções de um tipo de dado
+puts "Funções básicas de inteiro:"
+variavel_inteira = 1
+puts variavel_inteira.methods
+puts "\nFunções básicas de string:"
+variavel_string = "Hello World"
+puts variavel_string.methods
