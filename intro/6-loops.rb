@@ -32,3 +32,10 @@ end
 5.times do
     puts "Executando Times 5 vezes"
 end
+
+# Quebrando loops com if
+for i in 1..5
+    break if i ==3
+    puts "Executando Quebrando #{i}"
+    i += 1
+end
