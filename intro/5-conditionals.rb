@@ -1,4 +1,5 @@
 # ruby 5-conditionals.rb
+
 idade_natalia = 25
 idade_maria = 18
 
@@ -23,5 +24,7 @@ end
 case idade_natalia
 when 0..18
     puts "Natália é menor de idade"
-else
+when 18..120
     puts "Natália é maior de idade"
+else
+    puts "Idade inválida"
