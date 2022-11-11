@@ -39,3 +39,12 @@ for i in 1..5
     puts "Executando Quebrando #{i}"
     i += 1
 end
+
+# Continuando loops com next (continue)
+# Imprimindo os numeros de 1 a 10 pulando o 5
+for i in 1..10
+    if i == 5
+        next
+    end
+    puts "Next: #{i}"
+end
