@@ -3,20 +3,26 @@
 array_vazio = []
 array_com_conteudo = [11, 33, 44, 55]
 
-puts "Array vazio"
-puts array_vazio
-puts "O array está vazio? #{array_vazio.empty?}"
-puts "\n"
+def verifica_array_vazio(array_vazio)
+    puts "Array vazio"
+    puts "O array está vazio? #{array_vazio.empty?}"
+    puts array_vazio
+    puts "\n"
+end
 
-puts "Array com conteudo"
-puts array_com_conteudo
-puts "O array está vazio? #{array_com_conteudo.empty?}"
-puts "\n"
+def verifica_array_conteudo(array_com_conteudo)
+    puts "Array com conteudo"
+    puts "O array está vazio? #{array_com_conteudo.empty?}"
+    puts array_com_conteudo
+    puts "\n"
+end
 
 #Tamanho do array
-puts "Tamanho do array_vazio: #{array_vazio.size}"
-puts "Tamanho do array_com_conteudo: #{array_com_conteudo.size}"
-puts "\n"
+def verifica_tamanho_array(array_vazio, array_com_conteudo)
+    puts "Tamanho do array_vazio: #{array_vazio.size}"
+    puts "Tamanho do array_com_conteudo: #{array_com_conteudo.size}"
+    puts "\n"
+end
 
 # Atribuido valor a uma posição especifica
 array_vazio[0] = "zero"
@@ -38,31 +44,59 @@ puts "Array que antes estava vazio:"
 puts "array_vazio: #{array_vazio}"
 puts "\n"
 
-puts "Acessando uma parte do array: (de dois a cinco)"
-puts array_vazio[2..5]
-puts "\n"
+def imprime_parte_array(array)
+    puts "Acessando uma parte do array: (de dois a cinco)"
+    puts array[2..5]
+    puts "\n"
+end
 
-puts "Acessando uma parte do array de tras pra frente: (do ultimo ao antepenultimo)"
-puts array_vazio[-3..-1]
-puts "\n"
+def array_tras_pra_frente(array)
+    puts "Acessando uma parte do array de tras pra frente: (do ultimo ao antepenultimo)"
+    puts array[-3..-1]
+    puts "\n"
+end
 
-puts "Primeiro item do array: #{array_com_conteudo.first}"
-puts "Primeiro item do array: #{array_com_conteudo.last}"
+def funcoes_primeiro_ultimo_item_array(array)
+    puts "Primeiro item do array: #{array.first}"
+    puts "Primeiro item do array: #{array.last}"
+end
 
-puts "O array possui o numero um? #{array_vazio.include?('um')}"
-puts "O array possui o numero cem? #{array_vazio.include?('cem')}"
+def array_contem_numero(array)
+    puts "O array possui o numero um? #{array.include?('um')}"
+    puts "O array possui o numero cem? #{array.include?('cem')}"
+end
 
 #Deletando itens do array
-puts "array atual: #{array_com_conteudo}"
+def imprime_array_atual(array)
+    puts "array atual: #{array}"
+end
 
-#Deletando na posição 3
-array_com_conteudo.delete_at(3)
-puts "array:#{array_com_conteudo}"
+#Deletando na posição 2
+def deleta_conteudo_array_passando_posicao(array)
+    array.delete_at(2)
+    imprime_array_atual(array)
+end
 
 #Deletando na primeira posição
-array_com_conteudo.shift
-puts "array:#{array_com_conteudo}"
+def deleta_item_primeira_posicao_array(array)
+    array.shift
+    imprime_array_atual(array)
+end
 
 #Deletando na ultima posição
-array_com_conteudo.pop
-puts "array:#{array_com_conteudo}"
+def deleta_item_ultima_posicao_array(array)
+    array.pop
+    imprime_array_atual(array)
+end
+
+verifica_array_vazio(array_vazio)
+verifica_array_conteudo(array_com_conteudo)
+verifica_tamanho_array(array_vazio, array_com_conteudo)
+imprime_parte_array(array_vazio)
+array_tras_pra_frente(array_vazio)
+funcoes_primeiro_ultimo_item_array(array_com_conteudo)
+array_contem_numero(array_vazio)
+imprime_array_atual(array_com_conteudo)
+deleta_conteudo_array_passando_posicao(array_com_conteudo)
+deleta_item_primeira_posicao_array(array_com_conteudo)
+deleta_item_ultima_posicao_array(array_com_conteudo)
