@@ -1,5 +1,23 @@
 # ruby4developers
-Trechos de código para estudo da linguagem Ruby para desenvolvedores
+
+Se você já tem experiência com outras linguagens de programação, sabe como funciona
+o mundo da programação e deseja aprender somente a sintaxe da linguagem, esse repositório
+foi feito especialmente pra você.
+
+Nesse repositório você vai encontrar trechos de código simples e diretos, utilizando exemplos
+claros de como funciona a estrutura da linguagem.
+
+## Módulos
+# Básico
+I/O
+Comentários
+Variáveis
+Condicionais
+Loops
+Funções
+Arrays
+Funções matemáticas
+Importações
 
 ## Site oficial do Ruby
 [Ruby](https://www.ruby-lang.org/pt/)
