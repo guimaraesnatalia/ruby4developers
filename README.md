@@ -28,3 +28,5 @@ Playlist - Curso completo de Ruby [One Bit Code](https://www.youtube.com/watch?v
 
 ### Alura
 Ruby I: Lógica de programação com jogos [Curso](https://cursos.alura.com.br/course/introducao-a-programacao-com-ruby-e-jogos-1)
+Ruby II: Continuando seus primeiros passos na programação[Curso](https://cursos.alura.com.br/course/introducao-a-programacao-com-ruby-e-jogos-2)
+Ruby III: Mais lógica de programação em um novo jogo[Curso](https://cursos.alura.com.br/course/introducao-a-programacao-com-ruby-e-jogos-3)
