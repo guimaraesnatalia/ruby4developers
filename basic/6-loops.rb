@@ -63,6 +63,13 @@ def pula_item_loops
     end
 end
 
+def percorre_array_simplificado
+    nomes = ['Ana', 'Maria', 'Mariana']
+    nomes.each do |nome|
+        puts "Each: #{nome}"
+    end
+end
+
 for_inteiros
 percorre_arrays
 while_inteiro
@@ -70,3 +77,4 @@ do_while
 funcao_times
 quebra_loops
 pula_item_loops
+percorre_array_simplificado
