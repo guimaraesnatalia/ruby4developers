@@ -40,3 +40,12 @@ puts variavel_inteira.methods
 puts "\nFunções básicas de string:"
 variavel_string = "Hello World"
 puts variavel_string.methods
+
+whats_my_name = -> (name) {
+    puts "Oh na na what's my name"
+    puts "My name is #{name}"
+}
+
+qual_e_o_meu_nome = whats_my_name
+qual_e_o_meu_nome.call("Namaria Braga")
+qual_e_o_meu_nome.("Louro Mané")
