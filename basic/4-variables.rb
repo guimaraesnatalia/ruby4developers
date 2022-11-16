@@ -25,3 +25,13 @@ puts one_symbol.object_id
 #Hash
 one_hash = {course: 'ruby', language: ' pt-Br'}
 puts one_hash[:course]
+
+#Dictionary
+language_color = {
+    "Go" => "Blue",
+    "Ruby" => "Red",
+    "Javascript" => "Yellow",
+    "Typescript" => "Blue",
+    "PHP" => "Purple"
+}
+puts "Go language color in dictionary: " + language_color["Go"]
