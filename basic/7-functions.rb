@@ -49,3 +49,13 @@ whats_my_name = -> (name) {
 qual_e_o_meu_nome = whats_my_name
 qual_e_o_meu_nome.call("Namaria Braga")
 qual_e_o_meu_nome.("Louro Mané")
+
+#Funçoes booleanas
+def sou_maior_de_idade? (idade)
+    if idade >= 18
+        return true
+    end
+    return false
+end
+puts sou_maior_de_idade? 5
+puts sou_maior_de_idade? 90
