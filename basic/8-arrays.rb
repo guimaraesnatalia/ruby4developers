@@ -2,7 +2,12 @@
 
 array_vazio = []
 array_com_conteudo = [11, 33, 44, 55]
-
+def declara_array_string
+    array_string = %w[title year cena]
+    puts array_string
+    puts array_string.class
+    puts teste_array[1].class
+end
 def verifica_array_vazio(array_vazio)
     puts "Array vazio"
     puts "O array está vazio? #{array_vazio.empty?}"
@@ -89,6 +94,7 @@ def deleta_item_ultima_posicao_array(array)
     imprime_array_atual(array)
 end
 
+declara_array_string
 verifica_array_vazio(array_vazio)
 verifica_array_conteudo(array_com_conteudo)
 verifica_tamanho_array(array_vazio, array_com_conteudo)
