@@ -2,7 +2,7 @@
 
 Se você já tem experiência com outras linguagens de programação, sabe como funciona
 o mundo da programação e deseja aprender somente a sintaxe da linguagem, esse repositório
-foi feito especialmente pra você.
+foi feito pra você.
 
 Nesse repositório você vai encontrar trechos de código simples e diretos, utilizando exemplos
 claros de como funciona a estrutura da linguagem.
