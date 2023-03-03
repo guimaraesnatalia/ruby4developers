@@ -7,8 +7,8 @@ foi feito pra você.
 Nesse repositório você vai encontrar trechos de código simples e diretos, utilizando exemplos
 claros de como funciona a estrutura da linguagem.
 
-## Módulos
-# Básico
+# Módulos
+## Básico
 - I/O
 - Comentários
 - Variáveis
