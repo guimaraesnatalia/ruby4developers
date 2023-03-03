@@ -19,6 +19,12 @@ claros de como funciona a estrutura da linguagem.
 - Funções matemáticas
 - Importações
 
+## Intermediário
+- Arquivos
+- Classes
+- Classes privadas
+- Herança
+
 ## Site oficial do Ruby
 [Ruby](https://www.ruby-lang.org/pt/)
 
